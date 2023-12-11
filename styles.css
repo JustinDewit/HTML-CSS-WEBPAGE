@@ -3,6 +3,33 @@
 }
 
 
+
+/* Quote part */
+.section-2 {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.section-2-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+#quote {
+    margin-bottom: 0;
+}
+
+#quote-author {
+    margin-top: 0;
+    align-self: flex-end;
+    font-weight: bold;
+
+}
+
+
+
 /* Call to action with email signup button part */
 .section-3 {
     display: flex;
