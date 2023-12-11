@@ -1,3 +1,81 @@
+.header {
+
+}
+
+
+/* Call to action with email signup button part */
+.section-3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 254, 254);
+    
+
+
+}
+
+.section-3-1 {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    padding: 20px 40px; /* Adjust padding for a more rectangular shape */
+    margin: 70px 50px;
+    width: 70%; /* Width in percentage to maintain responsiveness */
+    min-width: 300px; /* Minimum width */
+    max-width: 1200px; /* Maximum width to prevent it from getting too wide */
+    height: auto; /* Height set to auto to maintain aspect ratio */
+    aspect-ratio: 80 / 9; /* Optional: Set a specific aspect ratio for the container */
+    border-radius: 10px;
+}
+.section-3-2 {
+    display: flex;
+    flex-direction: row
+
+}
+
+.section-3-3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.section-3-3 h4 {
+    margin-bottom: 0;
+    font-size: larger;
+
+}
+
+.section-3-3 p {
+    margin-top: 0;
+}
+
+
+.section-3-4 {
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 100px;
+
+}
+
+.section-3-4 button {
+    background-color: #3882F6; /* Sets the background color to blue */
+    color: white; /* Sets the text color to white */
+    border: 2px solid white; /* Adds a white border */
+    padding: 4px 110px; /* Adds padding to make the button more rectangular */
+    border-radius: 5px; /* Rounds the edges of the button */
+    font-size: 16px; /* Adjust the font size as needed */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    margin: 30px;
+    flex-shrink: 0;
+
+}
+
+.section-3-4 button:hover {
+    background-color: darkblue; /* Changes the background color when hovered */
+}
+
+/* footer part */
 .footer {
     background-color: #1F2937;
     color: aliceblue;
@@ -5,23 +83,4 @@
     justify-content: center;
     padding: 25px;
     
-}
-
-.section-4 {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-
-
-}
-
-.section-4-1 {
-    display: flex;
-    background-color: blue;
-}
-
-.section-4-2 {
-    display: flex;
-    flex-direction: column;
-
 }
