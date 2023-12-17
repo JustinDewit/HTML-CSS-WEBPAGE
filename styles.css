@@ -1,5 +1,35 @@
-.header {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
 
+.header-left, .header-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header-right {
+   
+}
+
+.header-left p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.header-right a:hover {
+    color: #007bff;
 }
 
 /* section 0 */
@@ -49,11 +79,6 @@
     border-radius: 20px;
     overflow: hidden;
 }
-
-
-
-
-
 
 /* pictures part */
 .section-1 {
